@@ -31,14 +31,20 @@ function FP_getObjectByID(id,o) {//v1.0
  for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
  return null;
 }
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
 // -->
 </script>
 <!--[if gte mso 9]>
 <xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
 </xml><![endif]-->
+<!--mstheme--><link rel="stylesheet" type="text/css" href="themes/highway/high1011.css"><meta name="Microsoft Theme" content="highway 1011">
 </head>
 
-<body>
+<body onload="FP_preloadImgs(/*url*/'button14.gif', /*url*/'button15.gif', /*url*/'button17.gif', /*url*/'button18.gif')">
 
 <div style="position: absolute; width: 1307px; height: 1893px; z-index: 1; left: 15px; top: 19px" id="layer1">
 	<div style="position: absolute; width: 243px; height: 69px; z-index: 8; left: 134px; top: 496px" id="layer11">
@@ -50,7 +56,7 @@ function FP_getObjectByID(id,o) {//v1.0
 	<div style="position: absolute; width: 962px; height: 20px; z-index: 6; left: 139px; top: 318px" id="layer8">
 		<font face="Georgia">android cupcake emulator
 		<a href="https://mega.nz/folder/euIGlCiB#1ipHZBk_AjqBw6halviAbg">
-		<img border="0" id="img1" src="button4.jpg" height="20" width="100" alt="download" fp-style="fp-btn: Embossed Capsule 7; fp-font: Comic Sans MS; fp-font-style: Bold; fp-font-size: 9" fp-title="download" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button5.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button4.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button6.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button5.jpg')"></a> 
+		<img border="0" id="img1" src="button16.gif" height="20" width="100" alt="download" fp-style="fp-btn: Embossed Capsule 7; fp-font: Comic Sans MS; fp-font-style: Bold; fp-font-size: 9; fp-transparent: 1" fp-title="download" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button17.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button16.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button18.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button17.gif')"></a> 
 		emulates android cupcake (dont know how to install apks...)</font></div>
 	<div style="position: absolute; width: 415px; height: 75px; z-index: 1; left: 20px; top: 14px" id="layer2">
 		<div style="position: absolute; width: 93px; height: 341px; z-index: 1; left: -3px; top: 129px" id="layer3">
@@ -115,7 +121,7 @@ src="index_files/image001.gif" alt="Sploos Website&#13;&#10;" v:shapes="_x0000_s
 			<img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"><img border="0" src="images/gifs/a_bluuparro.gif" width="23" height="39"></div>
 		<p><font face="Georgia">nirlauncher
 		<a href="https://download.nirsoft.net/nirsoft_package_enc_1.23.67.zip">
-		<img border="0" id="img2" src="buttonA.jpg" height="20" width="100" alt="download" fp-style="fp-btn: Embossed Capsule 7; fp-font: Comic Sans MS; fp-font-style: Bold; fp-font-size: 9" fp-title="download" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonB.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonA.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'buttonC.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'buttonB.jpg')"></a> 
+		<img border="0" id="img2" src="button13.gif" height="20" width="100" alt="download" fp-style="fp-btn: Embossed Capsule 7; fp-font: Comic Sans MS; fp-font-style: Bold; fp-font-size: 9; fp-transparent: 1" fp-title="download" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button14.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button13.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button15.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button14.gif')"></a> 
 		contains set of useful utilites, password is nirsoft9876$ disable 
 		antivirus as it contains false positives</font></div>
 	<div style="position: absolute; width: 635px; height: 213px; z-index: 9; left: 136px; top: 581px" id="layer12">
