@@ -1,0 +1,34 @@
+[info]
+codepage=65001
+readonly=true
+version=4.00
+format=2.00
+title=Classic
+refcount=2
+
+[titles]
+1040=Classico
+1053=Klassisk
+1032=Κλασικό
+1031=Klassisch
+1036=Classique
+1044=Klassisk
+1042=기본
+1028=古典
+2052=古典
+1038=Drakula
+1049=Классическая
+1046=Clássico
+1041=クラシック
+2070=Clássico
+1054=วันแจ่มใส
+1025=يوم صاف
+3082=Clásico
+1043=Klassiek
+1030=Klassisk
+1035=Klassinen
+1029=Klasické
+1045=Klasyka
+1037=יום בהיר
+1055=Klasik
+
